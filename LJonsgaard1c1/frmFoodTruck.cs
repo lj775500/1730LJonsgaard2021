@@ -58,5 +58,10 @@ namespace LJonsgaard1c1
             txtTotal.Text = "";
             txtHotDogs.Focus();
         }
+
+        private void txtHotDogsSubtotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

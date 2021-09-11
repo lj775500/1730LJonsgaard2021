@@ -85,6 +85,7 @@ namespace LJonsgaard1c1
             this.txtHotDogsSubtotal.TabIndex = 10;
             this.txtHotDogsSubtotal.TabStop = false;
             this.txtHotDogsSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtHotDogsSubtotal.TextChanged += new System.EventHandler(this.txtHotDogsSubtotal_TextChanged);
             // 
             // txtHamburgersSubtotal
             // 
