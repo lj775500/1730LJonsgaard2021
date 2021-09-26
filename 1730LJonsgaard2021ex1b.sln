@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard1d1", "LJonsgaard
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard1F1", "LJonsgaard1F1\LJonsgaard1F1.csproj", "{C2E474A0-8F91-4DD6-A09B-A77DDF49CC81}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard2a1", "LJonsgaard2a1\LJonsgaard2a1.csproj", "{3A62C715-9A36-4A2B-9671-26E53B78C9C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C2E474A0-8F91-4DD6-A09B-A77DDF49CC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2E474A0-8F91-4DD6-A09B-A77DDF49CC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2E474A0-8F91-4DD6-A09B-A77DDF49CC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A62C715-9A36-4A2B-9671-26E53B78C9C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A62C715-9A36-4A2B-9671-26E53B78C9C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A62C715-9A36-4A2B-9671-26E53B78C9C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A62C715-9A36-4A2B-9671-26E53B78C9C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
