@@ -38,11 +38,13 @@ namespace LJonsgaard2E1
             // #01
 
             decimal subtotal = Convert.ToDecimal(input01aTextbox.Text);
-            result01Textbox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            //result01Textbox.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            result01Textbox.Text = (LogicalOperations.q01(subtotal)).ToString();
 
             // #02
-            int timeinservice = Convert.ToInt32(input02aTextbox.Text);
-            result02Textbox.Text = (timeinservice <= 4 || timeinservice >= 12).ToString();
+            int timeInService = Convert.ToInt32(input02aTextbox.Text);
+            //result02Textbox.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            result02Textbox.Text = (LogicalOperations.q02(timeInService)).ToString();
 
             // #03 - 06 initialization
             bool isValid = Convert.ToBoolean(input03aTextbox.Text);
@@ -51,7 +53,7 @@ namespace LJonsgaard2E1
             // #03
             int counter = Convert.ToInt32(input03bTextbox.Text);
             result03aTextbox.Text = (
-                isValid == true && counter++ < years
+                LogicalOperations.q03(isValid, years, counter)
                 ).ToString();
             result03bTextbox.Text = counter.ToString();
 
@@ -107,9 +109,14 @@ namespace LJonsgaard2E1
             int c = Convert.ToInt32(input10cTextbox.Text);
             int d = Convert.ToInt32(input10dTextbox.Text);
             result10aTextbox.Text = (
-                a = b * c - d
+                a > b && (b < c || c < d)
                 ).ToString();
-
+            // bool v = a >b;
+            // bool w = b < c;
+            //bool x = c < d;
+            //bool y = v && w;
+            //bool z = y || x;
+            //result10aTextbox.Text = DivideByZeroException.ToString();
 
         }
     }
