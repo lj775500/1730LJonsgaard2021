@@ -30,6 +30,10 @@ namespace LJonsgaard2E1
             result05bTextbox.Text = "";
             result06aTextbox.Text = "";
             result06bTextbox.Text = "";
+            result07aTextbox.Text = "";
+            result08aTextbox.Text = "";
+            result09aTextbox.Text = "";
+            result10aTextbox.Text = "";
 
             // #01
 
