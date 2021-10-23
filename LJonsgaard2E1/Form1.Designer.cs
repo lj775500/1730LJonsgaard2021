@@ -306,7 +306,7 @@ namespace LJonsgaard2E1
             this.input07cTextbox.Name = "input07cTextbox";
             this.input07cTextbox.Size = new System.Drawing.Size(45, 20);
             this.input07cTextbox.TabIndex = 30;
-            this.input07cTextbox.Text = "1/1/2021";
+            this.input07cTextbox.Text = "2/2/2019";
             // 
             // input07bTextbox
             // 
@@ -314,7 +314,7 @@ namespace LJonsgaard2E1
             this.input07bTextbox.Name = "input07bTextbox";
             this.input07bTextbox.Size = new System.Drawing.Size(45, 20);
             this.input07bTextbox.TabIndex = 29;
-            this.input07bTextbox.Text = "2/1/2021";
+            this.input07bTextbox.Text = "2/1/2019";
             // 
             // label9
             // 
@@ -339,7 +339,7 @@ namespace LJonsgaard2E1
             this.input08dTextbox.Name = "input08dTextbox";
             this.input08dTextbox.Size = new System.Drawing.Size(45, 20);
             this.input08dTextbox.TabIndex = 40;
-            this.input08dTextbox.Text = "2021";
+            this.input08dTextbox.Text = "2018";
             // 
             // result08aTextbox
             // 
@@ -381,7 +381,7 @@ namespace LJonsgaard2E1
             this.input08eTextbox.Name = "input08eTextbox";
             this.input08eTextbox.Size = new System.Drawing.Size(45, 20);
             this.input08eTextbox.TabIndex = 41;
-            this.input08eTextbox.Text = "2022";
+            this.input08eTextbox.Text = "2019";
             // 
             // result09bTextbox
             // 
@@ -424,7 +424,7 @@ namespace LJonsgaard2E1
             this.input07aTextbox.Name = "input07aTextbox";
             this.input07aTextbox.Size = new System.Drawing.Size(45, 20);
             this.input07aTextbox.TabIndex = 48;
-            this.input07aTextbox.Text = "1/1/2021";
+            this.input07aTextbox.Text = "1/1/2019";
             // 
             // input08aTextbox
             // 

@@ -60,21 +60,24 @@ namespace LJonsgaard2E1
             // #04
             counter = Convert.ToInt32(input03bTextbox.Text);
             result04aTextbox.Text = (
-                isValid == true & counter++ < years
+                //isValid == true & counter++ < years
+                LogicalOperations.q04(isValid, counter, years)
                 ).ToString();
             result04bTextbox.Text = counter.ToString();
 
             // #05
             counter = Convert.ToInt32(input03bTextbox.Text);
             result05aTextbox.Text = (
-                isValid == true || counter++ < years
+                //isValid == true || counter++ < years
+                LogicalOperations.q05(isValid, counter, years)
                 ).ToString();
             result05bTextbox.Text = counter.ToString();
 
             // #06
             counter = Convert.ToInt32(input03bTextbox.Text);
             result06aTextbox.Text = (
-                isValid == true | counter++ < years
+                //isValid == true | counter++ < years
+                LogicalOperations.q06(isValid, counter, years)
                 ).ToString();
             result06bTextbox.Text = counter.ToString();
 
@@ -83,7 +86,8 @@ namespace LJonsgaard2E1
             DateTime expirationDate = Convert.ToDateTime(input07bTextbox.Text);
             DateTime date = Convert.ToDateTime(input07cTextbox.Text);
             isValid = Convert.ToBoolean(input07dTextbox.Text);
-            result07aTextbox.Text = (date > startDate && date < expirationDate || isValid == true).ToString();
+            result07aTextbox.Text = (/*date > startDate && date < expirationDate || isValid == true*/
+                LogicalOperations.q07(startDate, expirationDate, date, isValid)).ToString();
 
             //#08
             decimal thisYTD = Convert.ToDecimal(input08aTextbox.Text);
@@ -92,14 +96,16 @@ namespace LJonsgaard2E1
             int startYear = Convert.ToInt32(input08dTextbox.Text);
             int currentYear = Convert.ToInt32(input08eTextbox.Text);
             result08aTextbox.Text = (
-                ((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                //((thisYTD > lastYTD) || empType == "Part time") && startYear < currentYear
+                LogicalOperations.q08(thisYTD, lastYTD, empType, startYear, currentYear)
                 ).ToString();
 
             //#09
             counter = Convert.ToInt32(input09aTextbox.Text);
             years = Convert.ToInt32(input09bTextbox.Text);
             result09aTextbox.Text = (
-                !(counter++ >= years)
+                //!(counter++ >= years)
+                LogicalOperations.q09(counter, years)
                 ).ToString();
             result09bTextbox.Text = counter.ToString();
 
@@ -109,14 +115,15 @@ namespace LJonsgaard2E1
             int c = Convert.ToInt32(input10cTextbox.Text);
             int d = Convert.ToInt32(input10dTextbox.Text);
             result10aTextbox.Text = (
-                a > b && (b < c || c < d)
+                //a > b && (b < c || c < d)
+                LogicalOperations.q10(a,b,c,d)
                 ).ToString();
-            // bool v = a >b;
+            // bool v = a > b;
             // bool w = b < c;
             //bool x = c < d;
             //bool y = v && w;
             //bool z = y || x;
-            //result10aTextbox.Text = DivideByZeroException.ToString();
+            //result10aTextbox.Text = z.ToString();
 
         }
     }
