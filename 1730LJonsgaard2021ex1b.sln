@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard2E1", "LJonsgaard
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard2E1UnitTest", "LJonsgaard2E1UnitTest\LJonsgaard2E1UnitTest.csproj", "{CF18D83E-AF7E-4EBC-B30E-24DDAB2EBBA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard2F1", "LJonsgaard2F1\LJonsgaard2F1.csproj", "{2423EC2D-D03D-4AC5-A2C9-D1A027898614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LJonsgaard2fUnitTest", "LJonsgaard2fUnitTest\LJonsgaard2fUnitTest.csproj", "{95F1A33B-0EE3-4EB7-9838-2EBD7E01EDD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{CF18D83E-AF7E-4EBC-B30E-24DDAB2EBBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF18D83E-AF7E-4EBC-B30E-24DDAB2EBBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF18D83E-AF7E-4EBC-B30E-24DDAB2EBBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2423EC2D-D03D-4AC5-A2C9-D1A027898614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2423EC2D-D03D-4AC5-A2C9-D1A027898614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2423EC2D-D03D-4AC5-A2C9-D1A027898614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2423EC2D-D03D-4AC5-A2C9-D1A027898614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F1A33B-0EE3-4EB7-9838-2EBD7E01EDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F1A33B-0EE3-4EB7-9838-2EBD7E01EDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F1A33B-0EE3-4EB7-9838-2EBD7E01EDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F1A33B-0EE3-4EB7-9838-2EBD7E01EDD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
