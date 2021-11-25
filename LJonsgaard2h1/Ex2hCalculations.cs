@@ -108,15 +108,19 @@ namespace LJonsgaard2h1
         public static string StringCalc01(string s)
         {
             string result = "Invalid input";
-            string letter = s;
-            letter = letter.Trim();
-            if (letter.Length != 0 || s.Length == 0)
+            try
             {
-                letter = letter.Remove(0, + 1);
-                letter = letter.Insert(0, "c");
-                letter = letter.Insert(1, "r");
-                result = letter;
+                string letter = s;
+                letter = letter.Trim();
+                if (letter.Length != 0 || s.Length == 0)
+                {
+                    letter = letter.Remove(0, +1);
+                    letter = letter.Insert(0, "c");
+                    letter = letter.Insert(1, "r");
+                    result = letter;
+                }
             }
+            catch { }
             return result;
         }
 
