@@ -234,7 +234,7 @@ namespace LJonsgaardex3A
                     strnumber = strNumbers.Substring(startindex, endindex - startindex);
                     int number = Int32.Parse(strnumber);
                     total += number;
-                    startindex = endindex++;
+                    startindex = endindex + 1;
                     count = count - 1;
                     result = total.ToString();
                 }
