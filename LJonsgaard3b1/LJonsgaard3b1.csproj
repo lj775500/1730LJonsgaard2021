@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFF607EC-4773-44AD-9000-3E81E48101B5}</ProjectGuid>
+    <ProjectGuid>{62DB3276-0A2B-438F-B335-DB11B4DE496F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LJonsgaardex3A</RootNamespace>
-    <AssemblyName>LJonsgaardex3A</AssemblyName>
+    <RootNamespace>LJonsgaard3b1</RootNamespace>
+    <AssemblyName>LJonsgaard3b1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -63,7 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Ex3aLoops.cs" />
+    <Compile Include="Ex3bCalculations.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,12 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LJonsgaard3b1\LJonsgaard3b1.csproj">
-      <Project>{62db3276-0a2b-438f-b335-db11b4de496f}</Project>
-      <Name>LJonsgaard3b1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
