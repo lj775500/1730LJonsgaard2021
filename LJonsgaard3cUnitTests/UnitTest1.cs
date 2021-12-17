@@ -1,6 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LJonsgaard3c;
+using LJonsgaard3C;
 
 namespace LJonsgaard3cUnitTests
 {
